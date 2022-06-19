@@ -60,9 +60,6 @@ local PlayerSection = PlayerTab:NewSection("Player")
 PlayerSection:NewSlider("WalkSpeed", "Changes You're WalkSpeed", 100, 16, function(v)
 game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
 end)
-PlayerSection:NewSlider("Jumppower", "Changes You're WalkSpeed", 100, 16, function(v)
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
-end)
 PlayerSection:NewButton("ESP", "Shows Where People are", function(v)
     loadstring(game:HttpGet("https://pastebin.com/raw/Bbs4X0rh", true))()
     end)
