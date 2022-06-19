@@ -100,4 +100,3 @@ ArtMakerSection:NewButton("Copy Discord Link", "Copies The Art Request Discord L
     setclipboard("dsc.gg/sacr")
 end)
 end)
-print("The Script Works")
