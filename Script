@@ -78,11 +78,9 @@ local UpdateSection = UpdateTab:NewSection("Update 1.55")
 UpdateSection:NewLabel("+Changed How Selecting Art Works")
 ArtMakerSection:NewLabel("Sumbit More Art Here! dsc.gg/sacr")
 ArtCopier:NewButton("Safe Art Copier", "Slower, BUT safer", function(v)
-    Settings = {
-        Timer = true
-    }
- 
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/anisnouacer1/My-Roblox-Scripts/main/Starving%20Artists.lua')))()
+    Timer = true
+
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/anisnouacer1/My-Roblox-Scripts/main/Starving%20Artist%20%5BNew%5D.lua')))()
 end)
 ArtCopier:NewButton("Art Copier", "Copies Art Instatly Made but change some pixel ok?", function(v)
     loadstring(game:HttpGet("https://pastebin.com/raw/aCFfd9Uq"))()
@@ -100,4 +98,3 @@ ArtMakerSection:NewButton("Copy Discord Link", "Copies The Art Request Discord L
     setclipboard("dsc.gg/sacr")
 end)
 end)
-print("The Script Works")
